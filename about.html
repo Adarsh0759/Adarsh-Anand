@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Anand | About</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/navbar.css"/>
+    <link rel="stylesheet" href="./css/about.css"/>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    <script src="https://kit.fontawesome.com/73ab28ea85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="header">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <!--logo-->
+            <img src="./assets/logo.jpg" class="logo"/>
+
+            
+            <!--hamburger icon -->
+            <button class="nav-toggler active">
+                <span></span>
+            </button>
+            <!-- nav items -->
+             <div class="nav">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html" class="active">About</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+             </div>
+            </div>
+             
+
+
+        </div>
+    </nav>
+    <div class="about">
+         <div class="pg">
+            <h1>About me</h1>
+
+            <img src="/assets/PIC (1).jpg">
+            <p>Hi my name is<br><h1>Adarsh Anand,</h1><br>
+              <p>> Enthusiast in computer vision and full stack development with a strong problem-solving foundation and robust software engineering skills. 
+                Experienced in Python, C++, JavaScript, and frameworks such as YOLOv8, OpenCV, Flask, and PHP-MySQL.</p>
+            <p>
+                Passionate about leveraging modern technologies to create scalable solutions, actively pursuing opportunities in Software Development, AI/ML, or Full Stack Engineering.
+            </p>
+            <button>Resume<i class="fa-solid fa-download"></i></button>
+
+            <p>
+                <ul>
+                    <li>Solved over 300 DSA problems on GeeksforGeeks.</li>
+                    <li>Interned at DRDO and Tata Steel specializing in AI-based safety systems.</li>
+                    <li>Developed full stack and AI-integrated projects with tangible impact.</li>
+                    <li>Strong foundation in Python, C++, and software engineering principles.</li>
+                </ul>
+                </p>
+
+<div class="skills">
+    <h2>Skills</h2>
+    <p>My Technologies</p>
+    <section id="skills-grid">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+
+    </section>
+
+</div>
+
+<div class="timeline-toggle-buttons">
+  <button id="educationBtn" class="active">Education</button>
+  <button id="experienceBtn">Experience</button>
+</div>
+
+<div class="timeline">
+
+  <!-- Education Section -->
+  <div id="educationSection" class="timeline-section">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>SRM Institute of Science and Technology</h3>
+        <span>2023 - 2027</span>
+        <p>B.Tech in Computer Science and Engineering (CGPA: 9.70/10)</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Vikas Vidyalaya, Begusarai</h3>
+        <span>2022 - 2023</span>
+        <p>Class XII, PCM (83.33%)</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Kadma High School, Jamshedpur</h3>
+        <span>2019 - 2020</span>
+        <p>Class X, CBSE (90.1%)</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience Section -->
+  <div id="experienceSection" class="timeline-section" style="display:none;">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>AI Intern, DRDO (SSPL), Delhi</h3>
+        <span>June 2025 – July 2025</span>
+        <p>Engineered real-time AI-based surveillance systems for industrial safety.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Computer Vision Intern, Tata Steel</h3>
+        <span>June 2025 – July 2025</span>
+        <p>Built machine vision systems for safety compliance in factory zones.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+            
+         </div>
+    </div>
+
+    <script src="./js/navbar.js"></script>
+<script src="./js/homescript.js"></script>
+   
+<footer class="footer">
+    <div class="footer1">
+        <p>If you are looking for a frontend developer or need help with your project then feel free to contact me at </p>
+        <span>adarshchotu09@gmail.com</span>
+        <h1>Lets<br>work<br>together</h1>
+    </div>
+    <div class="footer2">
+        <div class="socialItem">
+            <a href="https://www.instagram.com/_worry.wart_/" class="fa-brands fa-instagram"></a>
+            <a href="https://www.instagram.com/_worry.wart_/" class="footerlink">@adarshanand</a>
+        </div>
+        <div class="socialItem">
+            <a href="https://github.com/Adarsh0759" class="fa-brands fa-github"></a>
+            <a href="https://github.com/Adarsh0759" class="footerlink">@adarshanand</a>
+        </div>
+        <div class="socialItem">
+            <a href="https://www.linkedin.com/in/adarsh-anand-9a1914290" class="fa-brands fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/adarsh-anand-9a1914290" class="footerlink">@adarshanand</a>
+        </div>
+
+
+    </div>
+</footer> 
+<script>
+const eduBtn = document.getElementById('educationBtn');
+const expBtn = document.getElementById('experienceBtn');
+const eduSection = document.getElementById('educationSection');
+const expSection = document.getElementById('experienceSection');
+
+eduBtn.addEventListener('click', () => {
+  eduSection.style.display = 'block';
+  expSection.style.display = 'none';
+  eduBtn.classList.add('active');
+  expBtn.classList.remove('active');
+});
+
+expBtn.addEventListener('click', () => {
+  eduSection.style.display = 'none';
+  expSection.style.display = 'block';
+  expBtn.classList.add('active');
+  eduBtn.classList.remove('active');
+});
+
+</script>
+
+</body>
+</html>
